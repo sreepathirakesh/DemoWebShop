@@ -1,0 +1,12 @@
+package Testpages;
+
+import org.openqa.selenium.WebDriver;
+
+public class ShoppingCartPage {
+	static WebDriver driver;
+	public ShoppingCartPage(WebDriver driver)
+	{
+		
+		ShoppingCartPage.driver=driver;
+	}
+}
